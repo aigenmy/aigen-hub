@@ -1,0 +1,32 @@
+{
+  "name": "@hub/db",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./schema": "./src/schema.ts",
+    "./client": "./src/client.ts",
+    "./entitlements": "./src/entitlements.ts",
+    "./local-password": "./src/local-password.ts",
+    "./local": "./src/local.ts",
+    "./migrate": "./src/migrate.ts"
+  },
+  "scripts": {
+    "generate": "drizzle-kit generate",
+    "migrate": "tsx src/migrate.ts",
+    "typecheck": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "local": "tsx src/local-cli.ts"
+  },
+  "dependencies": {
+    "drizzle-orm": "0.45.4",
+    "postgres": "3.4.9"
+  },
+  "devDependencies": {
+    "drizzle-kit": "0.31.11",
+    "embedded-postgres": "17.10.0-beta.17",
+    "vitest": "5.0.5",
+    "tsx": "4.23.15"
+  }
+}

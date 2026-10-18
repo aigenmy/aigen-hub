@@ -1,0 +1,44 @@
+{
+  "name": "aigen-hub",
+  "private": true,
+  "version": "0.1.0",
+  "description": "AIGen Hub - one inbox and AI assistant for Malaysian SMEs (app.aigen.my)",
+  "packageManager": "pnpm@11.11.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "pnpm --filter @hub/web dev",
+    "dev:local": "pnpm db:local:start && pnpm --filter @hub/web dev:local",
+    "build": "pnpm --filter @hub/web build",
+    "typecheck": "pnpm -r typecheck",
+    "lint": "pnpm --filter @hub/web lint",
+    "test": "pnpm -r test",
+    "test:e2e": "tsx scripts/e2e-db.ts && playwright test",
+    "i18n:check": "tsx scripts/i18n-check.ts",
+    "db:generate": "pnpm --filter @hub/db generate",
+    "db:migrate": "pnpm --filter @hub/db migrate",
+    "db:local:start": "pnpm --filter @hub/db local start",
+    "db:local:stop": "pnpm --filter @hub/db local stop",
+    "db:local:reset": "pnpm --filter @hub/db local reset",
+    "seed:demo": "tsx scripts/seed-demo.ts",
+    "new:module": "tsx scripts/new-module.ts",
+    "check": "pnpm typecheck && pnpm i18n:check && pnpm test",
+    "dev:supabase": "pnpm --filter @hub/web dev:supabase",
+    "remote:migrate": "tsx scripts/remote-db.ts migrate",
+    "remote:staff": "tsx scripts/remote-db.ts staff",
+    "remote:check": "tsx scripts/remote-check.ts",
+    "remote:users": "tsx scripts/remote-users.ts"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.1",
+    "@types/node": "24.19.2",
+    "tsx": "4.23.15",
+    "typescript": "6.0.3",
+    "@hub/db": "workspace:*",
+    "@hub/i18n": "workspace:*",
+    "@hub/legal": "workspace:*",
+    "drizzle-orm": "0.45.4",
+    "postgres": "3.4.9"
+  }
+}

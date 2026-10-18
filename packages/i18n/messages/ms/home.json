@@ -1,0 +1,33 @@
+{
+  "greeting": {
+    "morning": "Selamat pagi, {name}",
+    "afternoon": "Selamat petang, {name}",
+    "evening": "Selamat malam, {name}"
+  },
+  "subtitle": "{company} · pelan {plan}",
+  "tiles": {
+    "team": "Pasukan",
+    "teamValue": "{used} daripada {limit} tempat",
+    "invites": "{count} jemputan menunggu",
+    "plan": "Pelan",
+    "planHint": "Percuma semasa beta",
+    "role": "Peranan anda",
+    "since": "Ahli sejak {date}"
+  },
+  "setup": {
+    "title": "Lengkapkan persediaan",
+    "progress": "{done} daripada {total} selesai",
+    "company": "Cipta syarikat anda",
+    "invite": "Jemput pasukan anda",
+    "mfa": "Hidupkan log masuk 2 langkah",
+    "doIt": "Buat sekarang"
+  },
+  "next": {
+    "title": "Akan datang",
+    "text": "AIGen Hub dalam beta. Ciri-ciri ini tiba dalam kemas kini seterusnya.",
+    "inbox": "Peti masuk: sembang laman web, Telegram dan WhatsApp di satu tempat",
+    "assistant": "Pembantu AI: mendraf balasan untuk anda guna, sunting atau tolak",
+    "meta": "Mesej Instagram dan Facebook"
+  },
+  "staff": "Anda kakitangan AIGen."
+}

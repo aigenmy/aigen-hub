@@ -1,0 +1,30 @@
+{
+  "title": "Sediakan syarikat anda",
+  "backHome": "Kembali ke Utama",
+  "steps": {
+    "company": "Syarikat",
+    "team": "Pasukan",
+    "done": "Sedia"
+  },
+  "company": {
+    "heading": "Ceritakan tentang syarikat anda",
+    "name": "Nama syarikat",
+    "namePlaceholder": "cth. Kedai Kopi Mesra Sdn Bhd",
+    "type": "Jenis perniagaan",
+    "language": "Bahasa utama dengan pelanggan",
+    "submit": "Cipta syarikat"
+  },
+  "team": {
+    "heading": "Jemput rakan sekerja",
+    "text": "Mereka akan menerima pautan yang sah selama 7 hari. Anda juga boleh melakukannya kemudian di Pasukan.",
+    "skip": "Langkau dahulu"
+  },
+  "done": {
+    "heading": "{company} sudah sedia",
+    "text": "Semasa AIGen Hub dalam beta, inilah yang akan datang:",
+    "next1": "Peti masuk, dengan sembang laman web, Telegram dan WhatsApp: kemas kini seterusnya.",
+    "next2": "Pembantu AI yang mendraf balasan untuk anda guna, sunting atau tolak: sejurus selepas Peti masuk.",
+    "next3": "Semuanya percuma semasa beta.",
+    "go": "Pergi ke Utama"
+  }
+}

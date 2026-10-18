@@ -1,0 +1,95 @@
+{
+  "appName": "AIGen Hub",
+  "beta": "Beta",
+  "save": "Save",
+  "cancel": "Cancel",
+  "close": "Close",
+  "done": "Done",
+  "on": "On",
+  "off": "Off",
+  "language": "Language",
+  "signOut": "Sign out",
+  "suspended": "Suspended",
+  "founder": "Founding customer",
+  "internal": "AIGen internal",
+  "nav": {
+    "console": "Console",
+    "switchCompany": "Switch company",
+    "newCompany": "New company",
+    "account": "Your account",
+    "settings": "Settings",
+    "menu": "Menu",
+    "backToApp": "Back to the app"
+  },
+  "roles": {
+    "owner": "Owner",
+    "admin": "Admin",
+    "agent": "Agent",
+    "viewer": "Viewer"
+  },
+  "plans": {
+    "free": "Free",
+    "starter": "Starter",
+    "growth": "Growth",
+    "business": "Business",
+    "enterprise": "Enterprise"
+  },
+  "planStatus": {
+    "trialing": "Trial",
+    "active": "Active",
+    "past_due": "Payment overdue",
+    "cancelled": "Cancelled",
+    "suspended": "Suspended"
+  },
+  "companyTypes": {
+    "retail": "Retail shop",
+    "fnb": "Food and beverage",
+    "services": "Services",
+    "ecommerce": "Online store",
+    "education": "Education",
+    "health": "Health and beauty",
+    "property": "Property",
+    "travel": "Travel",
+    "other": "Other"
+  },
+  "modules": {
+    "home": "Home",
+    "inbox": "Inbox",
+    "channel_webchat": "Website chat",
+    "channel_telegram": "Telegram",
+    "channel_whatsapp": "WhatsApp",
+    "channel_instagram": "Instagram",
+    "channel_messenger": "Facebook Messenger",
+    "channel_email": "Email channel",
+    "channel_tiktok": "TikTok",
+    "channel_marketplace": "Shopee and Lazada chat",
+    "broadcast": "Broadcasts",
+    "automation": "Automation",
+    "assistant": "AI Assistant",
+    "knowledge": "Knowledge base",
+    "content": "Content studio",
+    "email": "Email",
+    "website": "Website builder",
+    "company": "Company profile",
+    "contacts": "Contacts",
+    "deals": "Deals",
+    "invoicing": "Quotations and invoices",
+    "reports": "Reports",
+    "team": "Team",
+    "settings": "Settings",
+    "console": "Console"
+  },
+  "footer": {
+    "copyright": "© {year} AIGen.my",
+    "terms": "Terms",
+    "privacy": "Privacy"
+  },
+  "time": {
+    "never": "Never"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "text": "This page does not exist or you do not have access to it.",
+    "home": "Go to Home"
+  }
+}

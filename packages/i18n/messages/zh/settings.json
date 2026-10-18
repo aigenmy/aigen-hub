@@ -1,0 +1,90 @@
+{
+  "title": "设置",
+  "tabs": {
+    "profile": "个人资料",
+    "company": "公司",
+    "security": "安全",
+    "plan": "方案",
+    "legal": "法律"
+  },
+  "profile": {
+    "title": "个人资料",
+    "name": "姓名",
+    "email": "邮箱",
+    "emailHint": "您的登录邮箱。如需更改，请联系 AIGen。",
+    "timezone": "时区",
+    "saved": "个人资料已保存"
+  },
+  "company": {
+    "title": "公司",
+    "readonly": "只有所有者和管理员可以更改这些信息。",
+    "name": "公司名称",
+    "type": "业务类型",
+    "language": "与客户沟通的主要语言",
+    "timezone": "时区",
+    "saved": "公司资料已保存"
+  },
+  "security": {
+    "mfa": {
+      "title": "两步验证",
+      "text": "每次登录时，还需输入身份验证器应用（如 Google Authenticator、Microsoft Authenticator 或 1Password）中的验证码。",
+      "enabled": "两步验证已开启",
+      "disable": "关闭",
+      "disableTitle": "关闭两步验证？",
+      "disableText": "之后您的账户将只受密码保护。",
+      "disabled": "两步验证已关闭",
+      "setup": "设置两步验证",
+      "scan": "用身份验证器应用扫描此二维码，然后输入应用显示的 6 位数验证码。",
+      "manual": "无法扫描？请输入此密钥：",
+      "code": "6 位数验证码",
+      "verify": "开启",
+      "qrAlt": "身份验证器应用的二维码",
+      "staffTitle": "使用控制台需要两步验证",
+      "staffNote": "AIGen 员工必须使用两步验证才能打开控制台。"
+    },
+    "password": {
+      "title": "密码",
+      "text": "如果您使用 Google 登录，也可以在此设置密码。",
+      "new": "新密码",
+      "submit": "更改密码",
+      "changed": "密码已更改"
+    },
+    "staffAccess": {
+      "title": "AIGen 员工访问",
+      "text": "只有在您请求帮助或调查滥用行为时，AIGen 客服才会打开您的工作区。每次访问都会在此列出时间和所做的操作。",
+      "none": "目前没有员工访问记录。"
+    }
+  },
+  "plan": {
+    "current": "您的方案",
+    "plan": "方案",
+    "seats": "席位",
+    "seatsValue": "已用 {used} / {limit}",
+    "status": "状态",
+    "beta": "测试期间不收费，所有模块免费。",
+    "founder": "创始客户：开始收费后免费 3 个月，之后 9 个月半价。",
+    "contact": "测试期间如需更改方案或增加席位，请联系 AIGen。",
+    "ownerOnly": "只有所有者可以管理方案。",
+    "modules": "方案包含",
+    "ready": "已可用",
+    "coming": "即将推出",
+    "ladder": "所有方案",
+    "sstNote": "价格以令吉计，每家公司每月，不含 SST。年付按 10 个月计费。",
+    "price": "价格",
+    "assistsCol": "AI 辅助次数",
+    "yours": "当前方案",
+    "quote": "按需报价",
+    "perMonth": "{price} / 月",
+    "seatsIncluded": "{count} 个席位",
+    "custom": "定制",
+    "assists": "每月 {count} 次"
+  },
+  "legal": {
+    "title": "您已接受的文件",
+    "text": "每个新版本只需接受一次，在您下次登录时进行。",
+    "document": "文件",
+    "version": "版本",
+    "accepted": "接受时间",
+    "all": "所有法律文件"
+  }
+}

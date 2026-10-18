@@ -1,0 +1,33 @@
+{
+  "greeting": {
+    "morning": "早上好，{name}",
+    "afternoon": "下午好，{name}",
+    "evening": "晚上好，{name}"
+  },
+  "subtitle": "{company} · {plan}",
+  "tiles": {
+    "team": "团队",
+    "teamValue": "已用 {used} / {limit} 个席位",
+    "invites": "{count} 个邀请待接受",
+    "plan": "方案",
+    "planHint": "测试期间免费",
+    "role": "您的角色",
+    "since": "{date} 加入"
+  },
+  "setup": {
+    "title": "完成设置",
+    "progress": "已完成 {done} / {total}",
+    "company": "创建您的公司",
+    "invite": "邀请团队成员",
+    "mfa": "开启两步验证",
+    "doIt": "去设置"
+  },
+  "next": {
+    "title": "即将推出",
+    "text": "AIGen Hub 正处于测试阶段，以下功能将在后续更新中推出。",
+    "inbox": "收件箱：网站聊天、Telegram 和 WhatsApp 集中处理",
+    "assistant": "AI 助手：起草回复，您可以使用、编辑或拒绝",
+    "meta": "Instagram 和 Facebook 消息"
+  },
+  "staff": "您是 AIGen 员工。"
+}

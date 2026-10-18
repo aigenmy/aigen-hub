@@ -1,0 +1,25 @@
+{
+  "accept": {
+    "title": "Before you continue",
+    "text": "Please read and accept these documents. They explain how AIGen Hub works, how we handle data and what is allowed.",
+    "updated": "Updated {date}",
+    "checkbox": "I have read and accept the documents above.",
+    "submit": "Accept and continue"
+  },
+  "kinds": {
+    "terms": "Terms of Service",
+    "privacy": "Privacy Notice",
+    "dpa": "Data Processing Agreement",
+    "aup": "Acceptable Use Policy",
+    "ai_notice": "AI Notice",
+    "sla": "Service Level Agreement",
+    "refund": "Refund Policy",
+    "subprocessors": "Sub-processors",
+    "cookies": "Cookie Notice"
+  },
+  "page": {
+    "version": "Version {version} · published {date}",
+    "notPublished": "Draft: not published yet",
+    "otherDocs": "Legal documents"
+  }
+}

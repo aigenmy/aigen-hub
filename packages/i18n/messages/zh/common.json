@@ -1,0 +1,95 @@
+{
+  "appName": "AIGen Hub",
+  "beta": "测试版",
+  "save": "保存",
+  "cancel": "取消",
+  "close": "关闭",
+  "done": "完成",
+  "on": "开",
+  "off": "关",
+  "language": "语言",
+  "signOut": "退出登录",
+  "suspended": "已暂停",
+  "founder": "创始客户",
+  "internal": "AIGen 内部",
+  "nav": {
+    "console": "控制台",
+    "switchCompany": "切换公司",
+    "newCompany": "新建公司",
+    "account": "您的账户",
+    "settings": "设置",
+    "menu": "菜单",
+    "backToApp": "返回应用"
+  },
+  "roles": {
+    "owner": "所有者",
+    "admin": "管理员",
+    "agent": "客服",
+    "viewer": "查看者"
+  },
+  "plans": {
+    "free": "免费版",
+    "starter": "入门版",
+    "growth": "成长版",
+    "business": "商业版",
+    "enterprise": "企业版"
+  },
+  "planStatus": {
+    "trialing": "试用中",
+    "active": "有效",
+    "past_due": "付款逾期",
+    "cancelled": "已取消",
+    "suspended": "已暂停"
+  },
+  "companyTypes": {
+    "retail": "零售店",
+    "fnb": "餐饮",
+    "services": "服务业",
+    "ecommerce": "网店",
+    "education": "教育",
+    "health": "健康与美容",
+    "property": "房地产",
+    "travel": "旅游",
+    "other": "其他"
+  },
+  "modules": {
+    "home": "首页",
+    "inbox": "收件箱",
+    "channel_webchat": "网站聊天",
+    "channel_telegram": "Telegram",
+    "channel_whatsapp": "WhatsApp",
+    "channel_instagram": "Instagram",
+    "channel_messenger": "Facebook Messenger",
+    "channel_email": "邮件渠道",
+    "channel_tiktok": "TikTok",
+    "channel_marketplace": "Shopee 与 Lazada 聊天",
+    "broadcast": "群发",
+    "automation": "自动化",
+    "assistant": "AI 助手",
+    "knowledge": "知识库",
+    "content": "内容工作室",
+    "email": "邮件",
+    "website": "网站构建器",
+    "company": "公司资料",
+    "contacts": "联系人",
+    "deals": "商机",
+    "invoicing": "报价单与发票",
+    "reports": "报表",
+    "team": "团队",
+    "settings": "设置",
+    "console": "控制台"
+  },
+  "footer": {
+    "copyright": "© {year} AIGen.my",
+    "terms": "条款",
+    "privacy": "隐私"
+  },
+  "time": {
+    "never": "从未"
+  },
+  "notFound": {
+    "title": "找不到页面",
+    "text": "此页面不存在，或您无权访问。",
+    "home": "返回首页"
+  }
+}

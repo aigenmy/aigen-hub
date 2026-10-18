@@ -1,0 +1,90 @@
+{
+  "title": "Tetapan",
+  "tabs": {
+    "profile": "Profil",
+    "company": "Syarikat",
+    "security": "Keselamatan",
+    "plan": "Pelan",
+    "legal": "Undang-undang"
+  },
+  "profile": {
+    "title": "Profil anda",
+    "name": "Nama",
+    "email": "E-mel",
+    "emailHint": "E-mel log masuk anda. Hubungi AIGen untuk menukarnya.",
+    "timezone": "Zon waktu",
+    "saved": "Profil disimpan"
+  },
+  "company": {
+    "title": "Syarikat",
+    "readonly": "Hanya Pemilik dan Pentadbir boleh menukar butiran ini.",
+    "name": "Nama syarikat",
+    "type": "Jenis perniagaan",
+    "language": "Bahasa utama dengan pelanggan",
+    "timezone": "Zon waktu",
+    "saved": "Syarikat disimpan"
+  },
+  "security": {
+    "mfa": {
+      "title": "Log masuk 2 langkah",
+      "text": "Setiap kali log masuk, masukkan juga kod daripada aplikasi pengesah seperti Google Authenticator, Microsoft Authenticator atau 1Password.",
+      "enabled": "Log masuk 2 langkah dihidupkan",
+      "disable": "Matikan",
+      "disableTitle": "Matikan log masuk 2 langkah?",
+      "disableText": "Akaun anda kemudiannya dilindungi oleh kata laluan sahaja.",
+      "disabled": "Log masuk 2 langkah dimatikan",
+      "setup": "Sediakan log masuk 2 langkah",
+      "scan": "Imbas kod ini dengan aplikasi pengesah anda, kemudian masukkan kod 6 digit yang dipaparkan.",
+      "manual": "Tidak boleh imbas? Masukkan kunci ini:",
+      "code": "Kod 6 digit",
+      "verify": "Hidupkan",
+      "qrAlt": "Kod QR untuk aplikasi pengesah anda",
+      "staffTitle": "Log masuk 2 langkah diperlukan untuk Konsol",
+      "staffNote": "Kakitangan AIGen mesti menggunakan log masuk 2 langkah untuk membuka Konsol."
+    },
+    "password": {
+      "title": "Kata laluan",
+      "text": "Jika anda log masuk dengan Google, anda juga boleh menetapkan kata laluan di sini.",
+      "new": "Kata laluan baharu",
+      "submit": "Tukar kata laluan",
+      "changed": "Kata laluan ditukar"
+    },
+    "staffAccess": {
+      "title": "Akses kakitangan AIGen",
+      "text": "Sokongan AIGen hanya boleh membuka ruang kerja anda apabila anda meminta bantuan atau untuk menyiasat penyalahgunaan. Setiap akses sebegini disenaraikan di sini bersama masa dan perkara yang dilakukan.",
+      "none": "Belum ada akses kakitangan."
+    }
+  },
+  "plan": {
+    "current": "Pelan anda",
+    "plan": "Pelan",
+    "seats": "Tempat",
+    "seatsValue": "{used} daripada {limit} digunakan",
+    "status": "Status",
+    "beta": "Pembayaran dimatikan semasa beta. Setiap modul adalah percuma.",
+    "founder": "Pelanggan perintis: percuma selama 3 bulan selepas pembayaran bermula, kemudian separuh harga selama 9 bulan.",
+    "contact": "Untuk menukar pelan atau menambah tempat semasa beta, hubungi AIGen.",
+    "ownerOnly": "Hanya Pemilik menguruskan pelan.",
+    "modules": "Termasuk dalam pelan anda",
+    "ready": "Sedia",
+    "coming": "Akan datang",
+    "ladder": "Semua pelan",
+    "sstNote": "Harga dalam RM bagi setiap syarikat sebulan, tidak termasuk SST. Pelan tahunan berharga 10 bulan.",
+    "price": "Harga",
+    "assistsCol": "Bantuan AI",
+    "yours": "Pelan anda",
+    "quote": "Atas permintaan",
+    "perMonth": "{price} / bulan",
+    "seatsIncluded": "{count} tempat",
+    "custom": "Khas",
+    "assists": "{count} sebulan"
+  },
+  "legal": {
+    "title": "Dokumen yang anda terima",
+    "text": "Setiap versi baharu perlu diterima sekali, pada log masuk anda yang seterusnya.",
+    "document": "Dokumen",
+    "version": "Versi",
+    "accepted": "Diterima",
+    "all": "Semua dokumen undang-undang"
+  }
+}

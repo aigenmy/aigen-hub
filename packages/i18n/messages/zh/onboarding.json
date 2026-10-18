@@ -1,0 +1,30 @@
+{
+  "title": "设置您的公司",
+  "backHome": "返回首页",
+  "steps": {
+    "company": "公司",
+    "team": "团队",
+    "done": "完成"
+  },
+  "company": {
+    "heading": "介绍一下您的公司",
+    "name": "公司名称",
+    "namePlaceholder": "例如 Kedai Kopi Mesra Sdn Bhd",
+    "type": "业务类型",
+    "language": "与客户沟通的主要语言",
+    "submit": "创建公司"
+  },
+  "team": {
+    "heading": "邀请同事",
+    "text": "对方会收到一个 7 天内有效的链接。您也可以稍后在“团队”中邀请。",
+    "skip": "暂时跳过"
+  },
+  "done": {
+    "heading": "{company} 已准备就绪",
+    "text": "AIGen Hub 测试期间，接下来会推出：",
+    "next1": "收件箱，包括网站聊天、Telegram 和 WhatsApp：下一次更新。",
+    "next2": "AI 助手为您起草回复，您可以使用、编辑或拒绝：紧接收件箱之后。",
+    "next3": "测试期间所有功能免费。",
+    "go": "前往首页"
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "title": "Pasukan",
+  "seats": "{used} daripada {limit} tempat digunakan",
+  "seatsHelpLabel": "Tentang tempat",
+  "seatsHelp": "Setiap Pemilik, Pentadbir dan Ejen menggunakan satu tempat. Pemerhati adalah percuma. Menggantung ahli membebaskan tempatnya serta-merta.",
+  "readonly": "Hanya Pemilik dan Pentadbir boleh menjemput atau menukar ahli.",
+  "tabs": {
+    "members": "Ahli",
+    "invitations": "Jemputan",
+    "activity": "Aktiviti"
+  },
+  "invite": {
+    "button": "Jemput ahli",
+    "title": "Jemput ahli",
+    "email": "E-mel",
+    "role": "Peranan",
+    "submit": "Cipta jemputan",
+    "warningTitle": "Sebelum anda menjemput",
+    "warning": "Ahli yang anda jemput boleh melihat perbualan pelanggan anda mengikut peranan mereka. Buang ahli pada hari mereka berhenti.",
+    "understood": "Saya faham",
+    "linkTitle": "Jemputan sedia",
+    "linkText": "Hantar pautan ini kepada {email}. Pautan ini boleh digunakan sekali dan tamat tempoh dalam 7 hari.",
+    "copy": "Salin pautan",
+    "copied": "Pautan disalin",
+    "emailed": "Kami juga telah menghantar pautan melalui e-mel.",
+    "notEmailed": "Penghantaran e-mel belum dihidupkan, jadi sila hantar pautan ini sendiri.",
+    "another": "Jemput orang lain"
+  },
+  "table": {
+    "name": "Nama",
+    "role": "Peranan",
+    "seat": "Tempat",
+    "joined": "Menyertai",
+    "lastActive": "Aktif terakhir",
+    "actions": "Tindakan",
+    "you": "Anda",
+    "seatYes": "Guna tempat",
+    "seatNo": "Percuma"
+  },
+  "status": {
+    "active": "Aktif",
+    "suspended": "Digantung"
+  },
+  "actions": {
+    "changeRole": "Tukar peranan",
+    "suspend": "Gantung",
+    "restore": "Pulihkan",
+    "remove": "Buang",
+    "leave": "Keluar dari syarikat"
+  },
+  "confirm": {
+    "removeTitle": "Buang {name}?",
+    "removeText": "{name} kehilangan akses kepada {company} serta-merta. Tindakan mereka kekal dalam log aktiviti.",
+    "suspendTitle": "Gantung {name}?",
+    "suspendText": "{name} tidak boleh membuka {company} sehingga anda memulihkan mereka. Tempat mereka dibebaskan.",
+    "leaveTitle": "Keluar dari {company}?",
+    "leaveText": "Anda kehilangan akses serta-merta. Pemilik atau Pentadbir boleh menjemput anda semula."
+  },
+  "toast": {
+    "roleChanged": "Peranan ditukar",
+    "suspended": "Ahli digantung",
+    "restored": "Ahli dipulihkan",
+    "removed": "Ahli dibuang",
+    "invited": "Jemputan dicipta",
+    "revoked": "Jemputan dibatalkan"
+  },
+  "invitations": {
+    "empty": "Tiada jemputan terbuka.",
+    "email": "E-mel",
+    "role": "Peranan",
+    "invitedBy": "Dijemput oleh",
+    "expires": "Tamat tempoh",
+    "revoke": "Batalkan jemputan",
+    "revokeTitle": "Batalkan jemputan untuk {email}?",
+    "revokeText": "Pautan berhenti berfungsi serta-merta. Anda boleh menjemput mereka semula kemudian."
+  },
+  "activity": {
+    "filter": "Papar",
+    "filterAll": "Semua aktiviti",
+    "filterMembers": "Ahli",
+    "filterInvitations": "Jemputan",
+    "filterSettings": "Tetapan syarikat",
+    "count": "{count} rekod",
+    "when": "Bila",
+    "who": "Siapa",
+    "what": "Apa",
+    "empty": "Belum ada aktiviti.",
+    "staff": "Kakitangan AIGen",
+    "system": "Sistem",
+    "ai": "Pembantu AI",
+    "formerMember": "Bekas ahli"
+  },
+  "audit": {
+    "companyCreated": "mencipta {company}",
+    "companyChanged": "menukar tetapan syarikat: {fields}",
+    "memberAdded": "menambah {target} sebagai {role}",
+    "roleChanged": "menukar peranan {target} kepada {role}",
+    "memberSuspended": "menggantung {target}",
+    "memberRestored": "memulihkan {target}",
+    "memberLeft": "keluar dari syarikat",
+    "memberRemoved": "membuang {target}",
+    "invited": "menjemput {email} sebagai {role}",
+    "inviteAccepted": "{email} menerima jemputan",
+    "inviteRevoked": "membatalkan jemputan untuk {email}",
+    "inviteChanged": "mengemas kini jemputan untuk {email}",
+    "moduleSet": "menukar {module} kepada {state}",
+    "moduleReset": "mengembalikan {module} mengikut pelan",
+    "setupFinished": "selesai menyediakan syarikat",
+    "fields": {
+      "name": "nama",
+      "type": "jenis perniagaan",
+      "locale": "bahasa",
+      "timezone": "zon waktu",
+      "settings": "tetapan",
+      "plan_id": "pelan",
+      "plan_status": "status pelan",
+      "seats_limit": "had tempat",
+      "is_founder": "pelanggan perintis",
+      "is_internal": "dalaman",
+      "suspended_at": "penggantungan"
+    }
+  },
+  "email": {
+    "subject": "Anda dijemput ke {company} di AIGen Hub",
+    "body": "{inviter} menjemput anda menyertai {company} di AIGen Hub, peti masuk bersama dan pembantu AI daripada AIGen.my.",
+    "button": "Terima jemputan",
+    "expiry": "Pautan ini boleh digunakan sekali dan tamat tempoh dalam 7 hari. Jika anda tidak menjangkakannya, abaikan e-mel ini."
+  },
+  "join": {
+    "title": "Jemputan ke AIGen Hub",
+    "signedOut": "Log masuk atau daftar akaun dengan alamat e-mel yang menerima jemputan ini.",
+    "signIn": "Log masuk",
+    "createAccount": "Daftar akaun",
+    "status": {
+      "invalid": "Pautan jemputan ini tidak sah. Minta pautan baharu daripada orang yang menjemput anda.",
+      "revoked": "Jemputan ini telah dibatalkan. Minta pautan baharu daripada orang yang menjemput anda.",
+      "accepted": "Jemputan ini sudah digunakan.",
+      "expired": "Jemputan ini sudah tamat tempoh. Minta pautan baharu daripada orang yang menjemput anda."
+    },
+    "goHome": "Pergi ke Utama",
+    "wrongEmail": "Anda log masuk sebagai {email}, tetapi jemputan ini untuk alamat lain.",
+    "switchAccount": "Log masuk dengan akaun lain",
+    "heading": "Sertai {company}",
+    "asRole": "Anda dijemput sebagai {role}.",
+    "accept": "Terima dan sertai"
+  }
+}

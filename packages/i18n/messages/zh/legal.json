@@ -1,0 +1,25 @@
+{
+  "accept": {
+    "title": "继续之前",
+    "text": "请阅读并接受以下文件。它们说明 AIGen Hub 如何运作、我们如何处理数据，以及允许的用途。",
+    "updated": "更新于 {date}",
+    "checkbox": "我已阅读并接受以上文件。",
+    "submit": "接受并继续"
+  },
+  "kinds": {
+    "terms": "服务条款",
+    "privacy": "隐私声明",
+    "dpa": "数据处理协议",
+    "aup": "可接受使用政策",
+    "ai_notice": "AI 说明",
+    "sla": "服务水平协议",
+    "refund": "退款政策",
+    "subprocessors": "次级处理者",
+    "cookies": "Cookie 说明"
+  },
+  "page": {
+    "version": "版本 {version} · 发布于 {date}",
+    "notPublished": "草稿：尚未发布",
+    "otherDocs": "法律文件"
+  }
+}

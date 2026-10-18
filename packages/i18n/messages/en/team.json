@@ -1,0 +1,147 @@
+{
+  "title": "Team",
+  "seats": "{used} of {limit} seats used",
+  "seatsHelpLabel": "About seats",
+  "seatsHelp": "Owners, Admins and Agents each use a seat. Viewers are free. Suspending a member frees their seat at once.",
+  "readonly": "Only Owners and Admins can invite or change members.",
+  "tabs": {
+    "members": "Members",
+    "invitations": "Invitations",
+    "activity": "Activity"
+  },
+  "invite": {
+    "button": "Invite member",
+    "title": "Invite a member",
+    "email": "Email",
+    "role": "Role",
+    "submit": "Create invitation",
+    "warningTitle": "Before you invite",
+    "warning": "Members you invite can see your customers' conversations according to their role. Remove members the day they leave.",
+    "understood": "I understand",
+    "linkTitle": "Invitation ready",
+    "linkText": "Send this link to {email}. It works once and expires in 7 days.",
+    "copy": "Copy link",
+    "copied": "Link copied",
+    "emailed": "We also emailed the link.",
+    "notEmailed": "Email sending is not switched on yet, so please send the link yourself.",
+    "another": "Invite another"
+  },
+  "table": {
+    "name": "Name",
+    "role": "Role",
+    "seat": "Seat",
+    "joined": "Joined",
+    "lastActive": "Last active",
+    "actions": "Actions",
+    "you": "You",
+    "seatYes": "Uses a seat",
+    "seatNo": "Free"
+  },
+  "status": {
+    "active": "Active",
+    "suspended": "Suspended"
+  },
+  "actions": {
+    "changeRole": "Change role",
+    "suspend": "Suspend",
+    "restore": "Restore",
+    "remove": "Remove",
+    "leave": "Leave company"
+  },
+  "confirm": {
+    "removeTitle": "Remove {name}?",
+    "removeText": "{name} loses access to {company} at once. What they did stays in the activity log.",
+    "suspendTitle": "Suspend {name}?",
+    "suspendText": "{name} cannot open {company} until you restore them. Their seat is freed.",
+    "leaveTitle": "Leave {company}?",
+    "leaveText": "You lose access at once. An Owner or Admin can invite you again."
+  },
+  "toast": {
+    "roleChanged": "Role changed",
+    "suspended": "Member suspended",
+    "restored": "Member restored",
+    "removed": "Member removed",
+    "invited": "Invitation created",
+    "revoked": "Invitation cancelled"
+  },
+  "invitations": {
+    "empty": "No open invitations.",
+    "email": "Email",
+    "role": "Role",
+    "invitedBy": "Invited by",
+    "expires": "Expires",
+    "revoke": "Cancel invitation",
+    "revokeTitle": "Cancel the invitation for {email}?",
+    "revokeText": "The link stops working at once. You can invite them again later."
+  },
+  "activity": {
+    "filter": "Show",
+    "filterAll": "All activity",
+    "filterMembers": "Members",
+    "filterInvitations": "Invitations",
+    "filterSettings": "Company settings",
+    "count": "{count, plural, one {# entry} other {# entries}}",
+    "when": "When",
+    "who": "Who",
+    "what": "What",
+    "empty": "No activity yet.",
+    "staff": "AIGen staff",
+    "system": "System",
+    "ai": "AI Assistant",
+    "formerMember": "Former member"
+  },
+  "audit": {
+    "companyCreated": "created {company}",
+    "companyChanged": "changed company settings: {fields}",
+    "memberAdded": "added {target} as {role}",
+    "roleChanged": "changed the role of {target} to {role}",
+    "memberSuspended": "suspended {target}",
+    "memberRestored": "restored {target}",
+    "memberLeft": "left the company",
+    "memberRemoved": "removed {target}",
+    "invited": "invited {email} as {role}",
+    "inviteAccepted": "{email} accepted the invitation",
+    "inviteRevoked": "cancelled the invitation for {email}",
+    "inviteChanged": "updated the invitation for {email}",
+    "moduleSet": "switched {module} {state}",
+    "moduleReset": "set {module} back to the plan",
+    "setupFinished": "finished setting up the company",
+    "fields": {
+      "name": "name",
+      "type": "type of business",
+      "locale": "language",
+      "timezone": "time zone",
+      "settings": "settings",
+      "plan_id": "plan",
+      "plan_status": "plan status",
+      "seats_limit": "seat limit",
+      "is_founder": "founding customer",
+      "is_internal": "internal",
+      "suspended_at": "suspension"
+    }
+  },
+  "email": {
+    "subject": "You are invited to {company} on AIGen Hub",
+    "body": "{inviter} invited you to join {company} on AIGen Hub, the shared inbox and AI assistant by AIGen.my.",
+    "button": "Accept the invitation",
+    "expiry": "This link works once and expires in 7 days. If you did not expect it, ignore this email."
+  },
+  "join": {
+    "title": "Invitation to AIGen Hub",
+    "signedOut": "Sign in or create an account with the email address that received this invitation.",
+    "signIn": "Sign in",
+    "createAccount": "Create an account",
+    "status": {
+      "invalid": "This invitation link is not valid. Ask the person who invited you for a new one.",
+      "revoked": "This invitation was cancelled. Ask the person who invited you for a new one.",
+      "accepted": "This invitation has already been used.",
+      "expired": "This invitation has expired. Ask the person who invited you for a new one."
+    },
+    "goHome": "Go to Home",
+    "wrongEmail": "You are signed in as {email}, but this invitation is for a different address.",
+    "switchAccount": "Sign in with another account",
+    "heading": "Join {company}",
+    "asRole": "You are invited as {role}.",
+    "accept": "Accept and join"
+  }
+}

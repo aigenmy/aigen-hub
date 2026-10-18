@@ -1,0 +1,17 @@
+node_modules/
+.next/
+out/
+coverage/
+playwright-report/
+test-results/
+*.tsbuildinfo
+.DS_Store
+Thumbs.db
+
+# Local Postgres data (embedded, for development and tests only)
+.local/
+
+# Environment files never go into git. Secrets live in Vercel env or Supabase Vault.
+.env
+.env.*
+!.env.example

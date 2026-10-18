@@ -1,0 +1,95 @@
+{
+  "appName": "AIGen Hub",
+  "beta": "Beta",
+  "save": "Simpan",
+  "cancel": "Batal",
+  "close": "Tutup",
+  "done": "Selesai",
+  "on": "Hidup",
+  "off": "Mati",
+  "language": "Bahasa",
+  "signOut": "Log keluar",
+  "suspended": "Digantung",
+  "founder": "Pelanggan perintis",
+  "internal": "Dalaman AIGen",
+  "nav": {
+    "console": "Konsol",
+    "switchCompany": "Tukar syarikat",
+    "newCompany": "Syarikat baharu",
+    "account": "Akaun anda",
+    "settings": "Tetapan",
+    "menu": "Menu",
+    "backToApp": "Kembali ke aplikasi"
+  },
+  "roles": {
+    "owner": "Pemilik",
+    "admin": "Pentadbir",
+    "agent": "Ejen",
+    "viewer": "Pemerhati"
+  },
+  "plans": {
+    "free": "Percuma",
+    "starter": "Starter",
+    "growth": "Growth",
+    "business": "Business",
+    "enterprise": "Enterprise"
+  },
+  "planStatus": {
+    "trialing": "Percubaan",
+    "active": "Aktif",
+    "past_due": "Bayaran tertunggak",
+    "cancelled": "Dibatalkan",
+    "suspended": "Digantung"
+  },
+  "companyTypes": {
+    "retail": "Kedai runcit",
+    "fnb": "Makanan dan minuman",
+    "services": "Perkhidmatan",
+    "ecommerce": "Kedai dalam talian",
+    "education": "Pendidikan",
+    "health": "Kesihatan dan kecantikan",
+    "property": "Hartanah",
+    "travel": "Pelancongan",
+    "other": "Lain-lain"
+  },
+  "modules": {
+    "home": "Utama",
+    "inbox": "Peti masuk",
+    "channel_webchat": "Sembang laman web",
+    "channel_telegram": "Telegram",
+    "channel_whatsapp": "WhatsApp",
+    "channel_instagram": "Instagram",
+    "channel_messenger": "Facebook Messenger",
+    "channel_email": "Saluran e-mel",
+    "channel_tiktok": "TikTok",
+    "channel_marketplace": "Sembang Shopee dan Lazada",
+    "broadcast": "Siaran",
+    "automation": "Automasi",
+    "assistant": "Pembantu AI",
+    "knowledge": "Pangkalan pengetahuan",
+    "content": "Studio kandungan",
+    "email": "E-mel",
+    "website": "Pembina laman web",
+    "company": "Profil syarikat",
+    "contacts": "Kenalan",
+    "deals": "Urus niaga",
+    "invoicing": "Sebut harga dan invois",
+    "reports": "Laporan",
+    "team": "Pasukan",
+    "settings": "Tetapan",
+    "console": "Konsol"
+  },
+  "footer": {
+    "copyright": "© {year} AIGen.my",
+    "terms": "Terma",
+    "privacy": "Privasi"
+  },
+  "time": {
+    "never": "Belum pernah"
+  },
+  "notFound": {
+    "title": "Halaman tidak dijumpai",
+    "text": "Halaman ini tidak wujud atau anda tiada akses kepadanya.",
+    "home": "Pergi ke Utama"
+  }
+}

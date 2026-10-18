@@ -1,0 +1,33 @@
+{
+  "greeting": {
+    "morning": "Good morning, {name}",
+    "afternoon": "Good afternoon, {name}",
+    "evening": "Good evening, {name}"
+  },
+  "subtitle": "{company} · {plan} plan",
+  "tiles": {
+    "team": "Team",
+    "teamValue": "{used} of {limit} seats",
+    "invites": "{count, plural, one {# invitation waiting} other {# invitations waiting}}",
+    "plan": "Plan",
+    "planHint": "Free during the beta",
+    "role": "Your role",
+    "since": "Member since {date}"
+  },
+  "setup": {
+    "title": "Finish setting up",
+    "progress": "{done} of {total} done",
+    "company": "Create your company",
+    "invite": "Invite your team",
+    "mfa": "Turn on 2-step sign-in",
+    "doIt": "Do it"
+  },
+  "next": {
+    "title": "Coming next",
+    "text": "AIGen Hub is in beta. These arrive in the next updates.",
+    "inbox": "Inbox: website chat, Telegram and WhatsApp in one place",
+    "assistant": "AI Assistant: drafts replies you can use, edit or reject",
+    "meta": "Instagram and Facebook messages"
+  },
+  "staff": "You are AIGen staff."
+}

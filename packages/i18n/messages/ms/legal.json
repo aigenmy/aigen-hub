@@ -1,0 +1,25 @@
+{
+  "accept": {
+    "title": "Sebelum anda teruskan",
+    "text": "Sila baca dan terima dokumen ini. Dokumen ini menerangkan cara AIGen Hub berfungsi, cara kami mengendalikan data dan perkara yang dibenarkan.",
+    "updated": "Dikemas kini {date}",
+    "checkbox": "Saya telah membaca dan menerima dokumen di atas.",
+    "submit": "Terima dan teruskan"
+  },
+  "kinds": {
+    "terms": "Terma Perkhidmatan",
+    "privacy": "Notis Privasi",
+    "dpa": "Perjanjian Pemprosesan Data",
+    "aup": "Dasar Penggunaan Wajar",
+    "ai_notice": "Notis AI",
+    "sla": "Perjanjian Tahap Perkhidmatan",
+    "refund": "Dasar Bayaran Balik",
+    "subprocessors": "Sub-pemproses",
+    "cookies": "Notis Kuki"
+  },
+  "page": {
+    "version": "Versi {version} · diterbitkan {date}",
+    "notPublished": "Draf: belum diterbitkan",
+    "otherDocs": "Dokumen undang-undang"
+  }
+}

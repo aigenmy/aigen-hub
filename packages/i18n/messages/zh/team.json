@@ -1,0 +1,147 @@
+{
+  "title": "团队",
+  "seats": "已用 {used} / {limit} 个席位",
+  "seatsHelpLabel": "关于席位",
+  "seatsHelp": "所有者、管理员和客服各占一个席位，查看者免费。暂停成员会立即释放其席位。",
+  "readonly": "只有所有者和管理员可以邀请或更改成员。",
+  "tabs": {
+    "members": "成员",
+    "invitations": "邀请",
+    "activity": "活动记录"
+  },
+  "invite": {
+    "button": "邀请成员",
+    "title": "邀请成员",
+    "email": "邮箱",
+    "role": "角色",
+    "submit": "创建邀请",
+    "warningTitle": "邀请之前",
+    "warning": "您邀请的成员可按其角色查看客户对话。成员离职当天请将其移除。",
+    "understood": "我明白",
+    "linkTitle": "邀请已创建",
+    "linkText": "请把此链接发给 {email}。链接只能使用一次，7 天后失效。",
+    "copy": "复制链接",
+    "copied": "链接已复制",
+    "emailed": "我们也已通过邮件发送此链接。",
+    "notEmailed": "邮件发送尚未开启，请您自行发送此链接。",
+    "another": "再邀请一位"
+  },
+  "table": {
+    "name": "姓名",
+    "role": "角色",
+    "seat": "席位",
+    "joined": "加入时间",
+    "lastActive": "最近活跃",
+    "actions": "操作",
+    "you": "您",
+    "seatYes": "占用席位",
+    "seatNo": "免费"
+  },
+  "status": {
+    "active": "正常",
+    "suspended": "已暂停"
+  },
+  "actions": {
+    "changeRole": "更改角色",
+    "suspend": "暂停",
+    "restore": "恢复",
+    "remove": "移除",
+    "leave": "退出公司"
+  },
+  "confirm": {
+    "removeTitle": "移除 {name}？",
+    "removeText": "{name} 将立即失去 {company} 的访问权限。其操作记录仍保留在活动记录中。",
+    "suspendTitle": "暂停 {name}？",
+    "suspendText": "在您恢复之前，{name} 无法打开 {company}。其席位会被释放。",
+    "leaveTitle": "退出 {company}？",
+    "leaveText": "您将立即失去访问权限。所有者或管理员可以再次邀请您。"
+  },
+  "toast": {
+    "roleChanged": "角色已更改",
+    "suspended": "成员已暂停",
+    "restored": "成员已恢复",
+    "removed": "成员已移除",
+    "invited": "邀请已创建",
+    "revoked": "邀请已取消"
+  },
+  "invitations": {
+    "empty": "没有待处理的邀请。",
+    "email": "邮箱",
+    "role": "角色",
+    "invitedBy": "邀请人",
+    "expires": "过期时间",
+    "revoke": "取消邀请",
+    "revokeTitle": "取消发给 {email} 的邀请？",
+    "revokeText": "链接将立即失效。您之后可以再次邀请。"
+  },
+  "activity": {
+    "filter": "显示",
+    "filterAll": "全部活动",
+    "filterMembers": "成员",
+    "filterInvitations": "邀请",
+    "filterSettings": "公司设置",
+    "count": "{count} 条记录",
+    "when": "时间",
+    "who": "操作人",
+    "what": "内容",
+    "empty": "暂无活动记录。",
+    "staff": "AIGen 员工",
+    "system": "系统",
+    "ai": "AI 助手",
+    "formerMember": "前成员"
+  },
+  "audit": {
+    "companyCreated": "创建了 {company}",
+    "companyChanged": "更改了公司设置：{fields}",
+    "memberAdded": "添加 {target} 为{role}",
+    "roleChanged": "将 {target} 的角色改为{role}",
+    "memberSuspended": "暂停了 {target}",
+    "memberRestored": "恢复了 {target}",
+    "memberLeft": "退出了公司",
+    "memberRemoved": "移除了 {target}",
+    "invited": "邀请 {email} 担任{role}",
+    "inviteAccepted": "{email} 接受了邀请",
+    "inviteRevoked": "取消了发给 {email} 的邀请",
+    "inviteChanged": "更新了发给 {email} 的邀请",
+    "moduleSet": "将 {module} 设为{state}",
+    "moduleReset": "将 {module} 恢复为方案默认",
+    "setupFinished": "完成了公司设置",
+    "fields": {
+      "name": "名称",
+      "type": "业务类型",
+      "locale": "语言",
+      "timezone": "时区",
+      "settings": "设置",
+      "plan_id": "方案",
+      "plan_status": "方案状态",
+      "seats_limit": "席位上限",
+      "is_founder": "创始客户",
+      "is_internal": "内部",
+      "suspended_at": "暂停"
+    }
+  },
+  "email": {
+    "subject": "您受邀加入 AIGen Hub 上的 {company}",
+    "body": "{inviter} 邀请您加入 AIGen Hub 上的 {company}。AIGen Hub 是 AIGen.my 推出的共享收件箱与 AI 助手。",
+    "button": "接受邀请",
+    "expiry": "此链接只能使用一次，7 天后失效。如果这不是您预期的邮件，请忽略。"
+  },
+  "join": {
+    "title": "AIGen Hub 邀请",
+    "signedOut": "请使用收到此邀请的邮箱登录或创建账户。",
+    "signIn": "登录",
+    "createAccount": "创建账户",
+    "status": {
+      "invalid": "此邀请链接无效。请向邀请您的人索取新的链接。",
+      "revoked": "此邀请已被取消。请向邀请您的人索取新的链接。",
+      "accepted": "此邀请已被使用。",
+      "expired": "此邀请已过期。请向邀请您的人索取新的链接。"
+    },
+    "goHome": "前往首页",
+    "wrongEmail": "您当前以 {email} 登录，但此邀请发给的是另一个邮箱。",
+    "switchAccount": "使用其他账户登录",
+    "heading": "加入 {company}",
+    "asRole": "您受邀担任{role}。",
+    "accept": "接受并加入"
+  }
+}

@@ -1,0 +1,92 @@
+@import 'tailwindcss';
+@import '@hub/ui/tokens.css';
+@source '../../../packages/ui/src';
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    background: var(--color-bg);
+    color: var(--color-text);
+    font-family: var(--font-sans);
+    font-size: var(--text-base);
+    line-height: var(--text-base--line-height);
+    -webkit-font-smoothing: antialiased;
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+  }
+  ::selection {
+    background: #c9edff;
+  }
+}
+
+/* Glass only on the top bar and modals (spec §3). */
+.glass {
+  background: rgb(255 255 255 / 0.78);
+  backdrop-filter: saturate(1.4) blur(12px);
+  -webkit-backdrop-filter: saturate(1.4) blur(12px);
+}
+
+/* Legal documents rendered from Markdown. */
+.prose-legal h1 {
+  font-size: var(--text-2xl);
+  line-height: var(--text-2xl--line-height);
+  font-weight: 600;
+  margin: 0 0 12px;
+}
+.prose-legal h2 {
+  font-size: var(--text-lg);
+  font-weight: 600;
+  margin: 28px 0 8px;
+}
+.prose-legal h3 {
+  font-size: var(--text-md);
+  font-weight: 600;
+  margin: 20px 0 6px;
+}
+.prose-legal p,
+.prose-legal li {
+  font-size: 15px;
+  line-height: 24px;
+  color: #1e293b;
+}
+.prose-legal p {
+  margin: 0 0 12px;
+}
+.prose-legal ul,
+.prose-legal ol {
+  margin: 0 0 12px;
+  padding-left: 22px;
+}
+.prose-legal ul {
+  list-style: disc;
+}
+.prose-legal ol {
+  list-style: decimal;
+}
+.prose-legal li {
+  margin: 4px 0;
+}
+.prose-legal a {
+  color: var(--color-accent-strong);
+  text-decoration: underline;
+}
+.prose-legal table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 8px 0 16px;
+  font-size: 14px;
+}
+.prose-legal th,
+.prose-legal td {
+  border: 1px solid var(--color-border);
+  padding: 6px 8px;
+  text-align: left;
+  vertical-align: top;
+}
+.prose-legal th {
+  background: var(--color-surface-2);
+}

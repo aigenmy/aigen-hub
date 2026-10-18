@@ -1,0 +1,10 @@
+packages:
+  - apps/*
+  - packages/*
+# Native binaries (postgres, esbuild, swc, file watcher, resolver) need their install scripts.
+allowBuilds:
+  '@embedded-postgres/windows-x64': true
+  esbuild: true
+  '@parcel/watcher': true
+  '@swc/core': true
+  unrs-resolver: true

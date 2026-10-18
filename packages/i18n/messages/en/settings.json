@@ -1,0 +1,90 @@
+{
+  "title": "Settings",
+  "tabs": {
+    "profile": "Profile",
+    "company": "Company",
+    "security": "Security",
+    "plan": "Plan",
+    "legal": "Legal"
+  },
+  "profile": {
+    "title": "Your profile",
+    "name": "Name",
+    "email": "Email",
+    "emailHint": "Your sign-in email. Contact AIGen to change it.",
+    "timezone": "Time zone",
+    "saved": "Profile saved"
+  },
+  "company": {
+    "title": "Company",
+    "readonly": "Only Owners and Admins can change these.",
+    "name": "Company name",
+    "type": "Type of business",
+    "language": "Main language with customers",
+    "timezone": "Time zone",
+    "saved": "Company saved"
+  },
+  "security": {
+    "mfa": {
+      "title": "2-step sign-in",
+      "text": "Each time you sign in, also enter a code from an authenticator app such as Google Authenticator, Microsoft Authenticator or 1Password.",
+      "enabled": "2-step sign-in is on",
+      "disable": "Turn off",
+      "disableTitle": "Turn off 2-step sign-in?",
+      "disableText": "Your account will then be protected by your password only.",
+      "disabled": "2-step sign-in turned off",
+      "setup": "Set up 2-step sign-in",
+      "scan": "Scan this code with your authenticator app, then enter the 6-digit code it shows.",
+      "manual": "Cannot scan? Enter this key:",
+      "code": "6-digit code",
+      "verify": "Turn on",
+      "qrAlt": "QR code for your authenticator app",
+      "staffTitle": "2-step sign-in needed for the Console",
+      "staffNote": "AIGen staff must use 2-step sign-in to open the Console."
+    },
+    "password": {
+      "title": "Password",
+      "text": "If you sign in with Google, you can also set a password here.",
+      "new": "New password",
+      "submit": "Change password",
+      "changed": "Password changed"
+    },
+    "staffAccess": {
+      "title": "AIGen staff access",
+      "text": "AIGen support may open your workspace only when you ask for help or to investigate abuse. Every such access is listed here with the time and what was done.",
+      "none": "No staff access so far."
+    }
+  },
+  "plan": {
+    "current": "Your plan",
+    "plan": "Plan",
+    "seats": "Seats",
+    "seatsValue": "{used} of {limit} used",
+    "status": "Status",
+    "beta": "Payments are off during the beta. Every module is free.",
+    "founder": "Founding customer: free for 3 months after payments start, then half price for 9 months.",
+    "contact": "To change your plan or add seats during the beta, message AIGen.",
+    "ownerOnly": "Only the Owner manages the plan.",
+    "modules": "Included in your plan",
+    "ready": "Ready",
+    "coming": "Coming",
+    "ladder": "All plans",
+    "sstNote": "Prices in RM per company per month, SST not included. Yearly plans cost 10 months.",
+    "price": "Price",
+    "assistsCol": "AI assists",
+    "yours": "Yours",
+    "quote": "On request",
+    "perMonth": "{price} / month",
+    "seatsIncluded": "{count, plural, one {# seat} other {# seats}}",
+    "custom": "Custom",
+    "assists": "{count} a month"
+  },
+  "legal": {
+    "title": "Documents you accepted",
+    "text": "Each new version needs your acceptance once, at your next sign-in.",
+    "document": "Document",
+    "version": "Version",
+    "accepted": "Accepted",
+    "all": "All legal documents"
+  }
+}
