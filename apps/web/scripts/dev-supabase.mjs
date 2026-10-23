@@ -5,10 +5,10 @@
 import { spawn } from 'node:child_process';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { supabaseBaseUrl, userEnv } from '../../../scripts/user-env.mjs';
+import { databaseUrl, projectUrlFromDatabaseUrl, supabaseBaseUrl, userEnv } from '../../../scripts/user-env.mjs';
 
 const names = ['AIGEN_HUB_DEV_SUPABASE_URL', 'AIGEN_HUB_DEV_SUPABASE_KEY', 'AIGEN_HUB_DEV_DATABASE_URL'];
-const values = Object.fromEntries(names.map((n) => [n, userEnv(n)]));
+const values = Object.fromEntries(names.map((n) => [n, n === 'AIGEN_HUB_DEV_DATABASE_URL' ? databaseUrl() : userEnv(n)]));
 const missing = names.filter((n) => !values[n]);
 if (missing.length) {
   console.error(`Missing Windows user environment variables: ${missing.join(', ')}. See UPDATE\\app.aigen.my-INSTRUCTIONS.txt.`);
@@ -22,7 +22,9 @@ const child = spawn(process.platform === 'win32' ? 'npx.cmd' : 'npx', ['next', '
   env: {
     ...process.env,
     AUTH_MODE: 'supabase',
-    NEXT_PUBLIC_SUPABASE_URL: supabaseBaseUrl(values.AIGEN_HUB_DEV_SUPABASE_URL),
+    // From the database string when possible: the URL variable once pointed at another project by mistake.
+    NEXT_PUBLIC_SUPABASE_URL:
+      projectUrlFromDatabaseUrl(values.AIGEN_HUB_DEV_DATABASE_URL) ?? supabaseBaseUrl(values.AIGEN_HUB_DEV_SUPABASE_URL),
     NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY: values.AIGEN_HUB_DEV_SUPABASE_KEY,
     DATABASE_URL: values.AIGEN_HUB_DEV_DATABASE_URL,
     APP_URL: `http://localhost:${port}`,

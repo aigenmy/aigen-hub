@@ -3,9 +3,9 @@
 //   pnpm remote:check
 import postgres from 'postgres';
 // @ts-expect-error -- plain .mjs helper shared with the web launcher
-import { userEnv } from './user-env.mjs';
+import { databaseUrl } from './user-env.mjs';
 
-const url: string | undefined = userEnv('AIGEN_HUB_DEV_DATABASE_URL');
+const url: string | undefined = databaseUrl();
 if (!url) {
   console.error('AIGEN_HUB_DEV_DATABASE_URL is not set.');
   process.exit(1);
